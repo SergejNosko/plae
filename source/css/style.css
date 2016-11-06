@@ -1,0 +1,114 @@
+body{
+	font-size: 16px;
+}
+h1{
+	font-size: 3.75em;
+}
+h2{
+	font-size: 1.875em;
+}
+
+/*Header*/
+.header{
+	background: url("../images/headerBack.jpg") no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 1349px;
+}
+.header img{
+	margin: 30px;
+}
+.header .sign{
+	width: 50%;
+	margin-left: 24%;
+	margin-top: 7em;
+	color: #fff;
+	font-family: "Nunito", sans-serif;
+}
+.header .sign h1{
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.header .sign p{
+	text-align: center;
+	font-size: 1.25em;
+}
+.header .sign form{
+	margin-left: 7.5em;
+	margin-top: 2.8125em;
+}
+.header .sign form input{
+	padding: 5px 30px;
+	font-size: 1.125em;
+	font-family: "Yantramanav", sans-serif;
+}
+.header .sign form input[type="text"]{
+	border-radius: 15px 0 0 15px;
+	border: none;
+	color: #000;
+}
+.header .sign form input[type="submit"]{
+	border-radius: 0 15px 15px 0;
+	border: none;
+	background-color: #20ab50;
+	margin-left: -5px;
+}
+
+/*Galary*/
+.galary{
+	
+}
+.galary .galary-item{
+	height: 100vh;
+	overflow: hidden;
+}
+.galary .galary-item:nth-of-type(1) .galary-sign{
+	margin-top: 5%;
+	margin-left: 10%;
+}
+.galary .galary-item:nth-of-type(1) .galary-sign h2{
+	margin-bottom: 1em;
+}
+.galary .galary-item:nth-of-type(2) .galary-sign{
+	margin-top: 15%;
+	margin-left: 23%;
+}
+.galary .galary-item:nth-of-type(2) .galary-sign p, h2{
+	text-align: center;
+	margin-bottom: 80px;
+}
+.galary .galary-item:nth-of-type(3) .galary-sign{
+	margin-top: 25%;
+	margin-left: 23%;
+}
+.galary .galary-item:nth-of-type(3) .galary-sign p, h2{
+	text-align: center;
+	margin-bottom: 80px;
+}
+.galary .galary-item .galary-sign{
+	display: inline-block;
+}
+.galary .galary-item .galary-sign h2{
+	font-family: "Nunito", sans-serif;
+	text-align: center;
+}
+.galary .galary-item img{
+	height: 800px;
+}
+.galary .galary-item:nth-of-type(odd) img{
+	float: right;
+}
+.galary .galary-item:nth-of-type(even) img{
+	float: left;
+}
+.galary .galary-item .galary-sign p{
+	font-size: 1.25em;
+	font-family: "Yantramanav", sans-serif;
+	font-weight: 300;
+}
+.galary .galary-item:nth-of-type(1) .galary-sign p{
+	font-size: 1em;
+	font-weight: 100;
+}
+
