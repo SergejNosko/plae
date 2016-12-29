@@ -270,6 +270,7 @@ footer p{
 	background-color: #edeced;
 	padding: 4.6875em 3.75em 1.875em 3.75em;
 	height: 56.25em;
+	position: relative;
 }
 .why h2{
 	margin-bottom: 1.5625em;
@@ -297,12 +298,6 @@ footer p{
 	font-family: "Yantramanav", sans-serif;
 	margin-bottom: 0.625em;
 }
-/*.why .shoe .shoe-feature:nth-of-type(odd){
-	float: right;
-}
-.why .shoe .shoe-feature:nth-of-type(even){
-	float: left;
-}*/
 .why .shoe .shoe-feature h4{
 	font-size: 1em;
 	font-weight: 400;
@@ -312,4 +307,26 @@ footer p{
 	font-size: 0.9375em;
 	text-align: left;
 	font-weight: 100;
+}
+.why .round{
+	background: url("../images/why-round-back.png") no-repeat 50% 50%;
+	height: 1.4375em;
+	width: 1.4375em;
+	position: absolute;
+}
+.why .round img{
+	/*margin-top: 0.5em;*/
+	margin-left: 0.25em;
+}
+.why .round-1{
+	right: 32em;
+	bottom: 22.5em;
+}
+.why .shape-9{
+	background: url("../images/why-shape9.png") no-repeat 50% 50%;
+	height: 2em;
+	width: 25em;
+	position: absolute;
+	right: 18.125em;
+	bottom: 13.125em;
 }
