@@ -285,10 +285,10 @@ footer p{
 
 }
 .why .shoe .column:nth-of-type(odd){
-	float: right;
+	float: left;
 }
 .why .shoe .column:nth-of-type(even){
-	float: left;
+	float: right;
 }
 .why .shoe .shoe-feature{
 	width: 13.125em;
@@ -309,7 +309,9 @@ footer p{
 	font-weight: 100;
 }
 .why .round{
-	background: url("../images/why-round-back.png") no-repeat 50% 50%;
+	background-image: url("../images/why-round-back.png");
+	background-position: 50% 50%; 
+	background-repeat: no-repeat; 
 	height: 1.4375em;
 	width: 1.4375em;
 	position: absolute;
@@ -319,8 +321,40 @@ footer p{
 	margin-left: 0.25em;
 }
 .why .round-1{
-	right: 32em;
+	right: 33em;
 	bottom: 22.5em;
+}
+.why .round-2{
+	right: 28.6em;
+	bottom: 27.7em;
+}
+.why .round-3{
+	right: 38.375em;
+	top: 25.375em;
+}
+.why .round-4{
+	right: 41.375em;
+	top: 20.775em;
+}
+.why .round-5{
+	left: 23.675em;
+	top: 20.775em;
+}
+.why .round-6{
+	left: 24.775em;
+	top: 23.775em;
+}
+.why .round-7{
+	left: 25.375em;
+	top: 30.375em;
+}
+.why .round-8{
+	left: 33.375em;
+	bottom: 13.775em;
+}
+.why .round-9{
+	left: 40.375em;
+	bottom: 12.775em;
 }
 .why .shape-9{
 	background: url("../images/why-shape9.png") no-repeat 50% 50%;
