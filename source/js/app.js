@@ -24,13 +24,20 @@ var main = function(){
 
 //Why-block hover
 	$('.shoe-feature').hover(function(){
-			var i = $(this).attr("num");
+			let i = $(this).attr("num");
 			$('.round-' + i).css('background-image', 'url(images/why-round-back-hover.png)');
 		}, function(){
-			var i = $(this).attr("num");
+			let i = $(this).attr("num");
 			$('.round-' + i).css('background-image', 'url(images/why-round-back.png)');
 		}
 	);
+
+//Navigation
+	/*$('.nav-item').click(function() {
+		let id = $(this).attr("href");
+		let top = $(id);
+		console.log(top.getBoundingClientRect());
+	});	*/
 };
 
 	

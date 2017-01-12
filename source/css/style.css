@@ -11,12 +11,23 @@ h3{
 	font-size: 1.5em;
 }
 
+/*Navigation*/
+.nav{
+	position: fixed;
+	right: 5%;
+	top: 40%;
+	z-index: 20;
+}
+.nav .nav-item{
+	display: block;
+}
+
 /*Header*/
 .header{
 	background: url("../images/headerBack.jpg") no-repeat;
 	background-size: cover;
 	height: 100vh;
-	width: 1349px;
+	width: 100%;
 }
 .header img{
 	margin: 30px;
@@ -75,7 +86,7 @@ h3{
 }
 .galary .galary-item:nth-of-type(2) .galary-sign{
 	margin-top: 15%;
-	margin-left: 23%;
+	margin-left: 10%;
 }
 .galary .galary-item:nth-of-type(2) .galary-sign p, h2{
 	text-align: center;
@@ -83,7 +94,7 @@ h3{
 }
 .galary .galary-item:nth-of-type(3) .galary-sign{
 	margin-top: 25%;
-	margin-left: 23%;
+	margin-left: 15%;
 }
 .galary .galary-item:nth-of-type(3) .galary-sign p, h2{
 	text-align: center;
@@ -97,7 +108,8 @@ h3{
 	text-align: center;
 }
 .galary .galary-item img{
-	height: 800px;
+	/*height: 800px;*/
+	width: 650px;
 }
 .galary .galary-item:nth-of-type(odd) img{
 	float: right;
@@ -114,6 +126,7 @@ h3{
 	font-size: 1em;
 	font-weight: 100;
 }
+
 /*Slider*/
 .slider-container{
 	margin-top: 5.625em;
