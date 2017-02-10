@@ -9,7 +9,7 @@ var source = 'source/',
 		dest = 'build/',
 		images = {
 			in: source + "/images/*.*",
-			out: dest + "/images/*.*"
+			out: dest + "/images"
 		}
 
 		;
